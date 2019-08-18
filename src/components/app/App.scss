@@ -1,0 +1,17 @@
+.App {
+  font-size: 1.5em;
+  display: flex !important;
+}
+
+
+.Link {
+  display: inline-block;
+
+  & + & {
+    margin-left: 8px;
+  }
+}
+
+.Footer {
+  color: #AAAAAA;
+}
